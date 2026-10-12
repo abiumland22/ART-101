@@ -1,0 +1,63 @@
+HTML {background-color: rgb(179, 249, 249);}
+
+A {color: rgb(174, 83, 174);}
+A:hover {color:aqua; background: magenta;}
+
+ul {color: rgb(208, 164, 237);}
+ul:hover {color:aqua; background:magenta}
+
+h1 {
+    background:rgb(39, 153, 166) ; 
+    color: rgb(247, 201, 244);
+    font-weight: bold;
+}
+
+h2 {
+    background-color:rgb(246, 196, 229) ;
+    color:rgb(56, 168, 172);
+    font-weight: normal;
+}
+
+h3 {
+    color:rgb(17, 118, 123);
+}
+
+P {
+    background-color: rgb(30, 205, 214);
+    color: rgb(204, 58, 187);
+    padding: 5%;
+    margin: 30px;
+    font-size: 16px;
+}
+
+
+IMG {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;
+}
+<!-- for when you have more than one photo and want to target --->
+#pancake { width: 70%; }
+
+.highlight_01 {background-color: rgb(235, 182, 216); }
+.highlight_01 strong {background-color:azure; }
+
+.highlight_02 {background-color:aqua;}
+
+#main {background-color: azure; 
+    padding:50px; 
+    margin:100px;
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+border-radius: 100px
+}
+
+#meal { display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start; row-gap: 20px; 
+    column-gap:30px;
+    
+    background-color:aqua;
+    padding:40px;
+    margin: 100px;}
+#meal IMG {width: 300px}
