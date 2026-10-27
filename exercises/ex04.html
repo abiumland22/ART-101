@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- All techy stuff goes here, inside HEAD -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Overall title of your page -->
+   <title>Empty Template</title>
+   <!-- Link to external CSS file -->
+   <link rel="stylesheet" href="ex04.css">
+   <!-- jQuery library -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <!-- Link to external JavaScript file -->
+   <script src="ex04.js" DEFER></script>
+</head>
+
+<!-- text change below -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button id="button">
+      Don't click me!
+    </button>
+    <div id="output"></div>
+
+
+    <script>
+      const button = document.getElementById('button');
+      const stringsArray = ['Why are you clicking me?', 'Stop', 'Come on man', 'PLEASE!'];
+      let index = 0;
+
+      button.addEventListener('click', (event) => {
+        if (index > 3) {
+          index = 0;
+        }
+        document.getElementById("output").innerHTML += stringsArray[index];
+        index++
+      })
+
+    </script>
+  </body>
+
+</html>
+
+
+<body>
+
+   <!-- Main content goes here, inside BODY -->
+   <h1>Hello, world!</h1> 
+
+   <button id="needy-button">tickle me</button>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    background-image: url("cafe.jpeg");
+    background-size: 100%; 
+}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+}
+
+.top-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+    text-align: center;
+    flex: 2;
+}
+
+#top p { 
+    order: 1;
+    background-color: rgb(255, 246, 188);
+    color: rgb(204, 58, 187);
+    margin: center;
+    padding: 2%;
+    font-size: 22px;
+}
+
+#menu h3 {
+    order: 2; 
+    background-color: rgb(204, 58, 187);
+    color:rgb(255, 246, 188);
+    font-size: 22px;
+    width: 250px;
+    margin-left: 350px; 
+}
+
+.main {
+    display: flex;
+    gap: 150px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+    margin-left: -50px;
+    text-align: center;
+    flex: 1;
+}
+
+.main IMG {
+    display: block; 
+    border-radius: 10px; 
+}
+img:hover {background:pink}
+
+.main p {
+    background-color: rgb(255, 246, 188);
+    color: rgb(204, 58, 187);
+    margin: center;
+    padding: 2%;
+}
+
+#banana img {
+ width: 250px;
+ border-radius: 12px;
+}
+
+#banana p {
+font-size: 17px;
+line-height: 1.5;
+}
+
+#strawberry img {
+ width: 250px;
+ border-radius: 12px;
+}
+
+#strawberry p {
+font-size: 17px;
+line-height: 1.5;
+}
+ 
+#classic img {
+ width: 250px;
+ border-radius: 12px;
+}
+
+#classic p {
+font-size: 17px;
+line-height: 1.5;
+}
+
+
+
+
